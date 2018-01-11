@@ -1,4 +1,4 @@
-apply plugin: 'java'
+apply from: "$rootDir/buildSrc/base/baseJava.gradle"
 
 dependencies {
     compile 'com.google.code.findbugs:jsr305:1.3.9'
